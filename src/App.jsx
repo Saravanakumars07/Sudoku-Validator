@@ -96,8 +96,7 @@ function App() {
     <div className="page">
       <div className="card">
         <h1>Sudoku Validator</h1>
-        <p className="subtitle">Enter numbers 1-9. Check rows, columns and 3×3 boxes.</p>
-
+       <p className="subtitle">Enter numbers 1-9 and validate the board.</p>
         <div className="board">
           {board.map((rowArr, r) =>
             rowArr.map((value, c) => (
